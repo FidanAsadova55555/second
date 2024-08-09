@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 40px auto;
+
+}
+.inside{
+    width: 100%;
+    display: flex;
+}
+.left-side{
+    flex-basis: 55%;
+}
+.left-side .left{
+    width: 100%;
+    height: 850px;
+    overflow: hidden;
+    border-radius: 20px 20px;
+
+}
+.leftimage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.right-side{
+    flex-basis: 45%;
+}
+.right-side .rightsideheader h1{
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal; 
+  font-size: 25px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center
+}
+.right-side .rightsideheader p{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal; 
+  font-size: 15px;
+  display: flex;
+  justify-content: center
+}
+.rightsideheader {
+margin-top: 95px;
+margin-bottom: 50px
+    ;
+    
+}
+.twobottoms{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.google{
+    border: 1px solid black;
+    width: 200px; display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.github{border: 1px solid black;
+    width: 200px; display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.inputs{
+    border: 1px solid black;
+    width: 200px; display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.twoinputs{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.last p{
+    margin-bottom:10px ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 15px;
+}
+.first p{
+    margin-bottom:10px ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 15px;
+}
+#firstinput{font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 15px;
+
+}
+#lastinput{font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 15px;
+
+}
+
+
+.google p{font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 15px;
+
+
+}
+.github p{font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 15px
+
+}
+#firstinput:focus,
+#lastinput:focus {
+    outline: none;
+}
+input {
+    border: none;
+}
+
+
+input::placeholder {font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 15px
+    
+}
+#emailinput{font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 15px;
+
+}
+.email{
+    margin-bottom:10px ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 30px;
+
+    
+    
+}
+.emailinput{
+    border: 1px solid black;
+    width: 425px; 
+  padding: 15px;
+    border-radius: 10px;
+    
+}
+.thirdinput{
+    
+}
+.thirdi{
+    margin-bottom: 50px;
+}
+.email p{
+    margin-bottom:10px ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.password p{ margin-bottom:10px ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 15px
+
+}
+.paragraph p{ margin-bottom:10px ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 15px;
+    width: 100%;
+    
+    margin-top: 15px;
+    
+
+}
+.sign-up-button {
+    width: 430px;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    
+}
+.account{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.account p,a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 15px;
+}
