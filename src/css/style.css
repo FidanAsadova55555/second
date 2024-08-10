@@ -83,7 +83,7 @@ body{
     justify-content: center;
     gap: 10px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .github { border: 1px solid  #333;;
@@ -93,7 +93,7 @@ body{
     justify-content: center;
     gap: 10px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .inputs {
@@ -104,7 +104,7 @@ background-color: #333;
     justify-content: center;
     gap: 10px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-bottom: 30px;
 }
 
@@ -147,7 +147,7 @@ input {
     border: none;
    
 }
-.emailinput:focus,, #lastinput:focus {
+.emailinput:focus, #lastinput:focus {
     outline: none;}
 
 input::placeholder {
@@ -175,7 +175,7 @@ input::placeholder {
     border: 1px solid black;
     width: 425px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 
@@ -211,7 +211,7 @@ input::placeholder {
     width: 430px;
     padding: 15px;
     background-color:white;
-    border-radius: 8px;
+    border-radius: 12px;
     color:#333;
     text-align: center;
     cursor: pointer;
