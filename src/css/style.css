@@ -126,7 +126,7 @@ background-color: #333;
 }
 
 #firstinput, #lastinput {
-    background-color: #333;
+    background-color: transparent;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -153,7 +153,7 @@ input {
     outline: none;}
 
 input::placeholder {
-    background-color: #333;
+    background-color:transparent;
     color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -185,7 +185,12 @@ input::placeholder {
 .thirdi {
     margin-bottom: 50px;
 }
-
+.thirdinput input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+padding: 8px 0;}
 .email p, .password p {
     color: white;
     margin-bottom: 10px;
@@ -353,3 +358,5 @@ a{
     font-weight: 600;
 }
 .account{gap:3px}
+input{color: white;
+background-color: transparent;}
